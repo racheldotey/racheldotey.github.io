@@ -13,13 +13,13 @@
 <br><br><br>
 
 
-<img src="https://cdorgs.github.io/img/blank_profile.jpg" width="25%">
+<img src="/img/blank_profile.jpg" width="25%">
 
 **Amir Nasab** is a postdoc
 <br><br><br>
 
 
-<img src="https://cdorgs.github.io/img/blank_profile.jpg" width="25%">
+<img src="/img/blank_profile.jpg" width="25%">
 
 **Steph Walker** is a postdoc
 <br><br><br>

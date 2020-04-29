@@ -20,36 +20,39 @@ a:hover, a:active {
 }
 
 /* Site Header */
-header {
-    .logo-link {
-        white-space: nowrap;
-        
-        &:link, &:visited {
-            color: #B2D23E;
-        }
-
-        &:hover, &:focus {
-            color: #f47d20;
-            text-decoration: none;
-        }
-    }
-
-    .nav-list .list .item {
-        border-color: rgba(255,255,255,0.2);
-        .link {
+header.nav-wrapper {
+    .nav {
+        max-width: 64rem;
+        .logo-link {
             white-space: nowrap;
             
             &:link, &:visited {
-                color: #fff;
-                text-decoration: none;
+                color: #B2D23E;
             }
 
             &:hover, &:focus {
-                color: #B2D23E;
+                color: #f47d20;
                 text-decoration: none;
             }
         }
-    } 
+
+        .nav-list .list .item {
+            border-color: rgba(255,255,255,0.2);
+            .link {
+                white-space: nowrap;
+                
+                &:link, &:visited {
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                &:hover, &:focus {
+                    color: #B2D23E;
+                    text-decoration: none;
+                }
+            }
+        } 
+    }
 }
 @media (min-width: 800px) {
     header .nav-list > .list > .item {
@@ -60,6 +63,12 @@ header {
 /* Page content */
 .page-header {     
   margin-top: 4.5rem;
+  text-align: center;
+
+  .content {
+      max-width: 64rem;
+      margin: 0 auto;
+  }
 }
 
 main {
