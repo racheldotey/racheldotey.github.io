@@ -1,0 +1,17 @@
+docs:
+
+- pagetitle: About
+  url: /
+  
+- pagetitle: Design
+  url: /design
+  
+- pagetitle: Build
+  url: /build
+  
+- pagetitle: Papers
+  url: /papers
+  
+- pagetitle: Team
+  url: /team 
+  

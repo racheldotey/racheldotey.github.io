@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+title: Soft robot kit
+description: A soft robot design and construction kit.
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - index.md
