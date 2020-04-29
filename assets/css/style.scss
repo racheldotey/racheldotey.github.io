@@ -6,6 +6,29 @@ $header-bg-color-secondary: #285000 !default;
 
 @import "{{ site.theme }}";
 
+/* Typography */
+body {
+    color: #444;
+}
+
+/* Links */
+a:link, a:visited {
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px dashed #444;
+}
+
+a:hover, a:focus {
+    border-bottom: 1px dashed #f47d20;
+    color: #f47d20;
+}
+
+a:hover, a:active {
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
 
 /* Header */
 .logo-link {
