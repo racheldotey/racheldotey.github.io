@@ -5,3 +5,9 @@ $header-bg-color: #159957 !default;
 $header-bg-color-secondary: #285000 !default;
 
 @import "{{ site.theme }}";
+
+
+/* Header */
+.logo-link {
+    white-space: nowrap;
+}
