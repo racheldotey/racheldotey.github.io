@@ -81,12 +81,12 @@ main {
         text-align: center;
        
 
-        &:link, &:visited {
+        a:link, a:visited {
             border: 0;
             color: #fff;
         }
 
-        &:hover, &:focus {
+        a:hover, a:focus {
             color: #fff;
             border-bottom: 1px dashed #fff;
         } 
