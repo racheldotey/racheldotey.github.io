@@ -45,3 +45,5 @@
 
 **Rebecca Kramer-Bottiglio** is the boss.
 
+<div class="clear"></div>
+
