@@ -14,5 +14,14 @@ $header-bg-color-secondary: #285000 !default;
 
 /* Main content */
 .page-header {     
-  padding-top: 4.5rem;
+  margin-top: 4.5rem;
+}
+
+/* Footer */
+.page-footer {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: .8rem;
+    text-align: center;
 }
