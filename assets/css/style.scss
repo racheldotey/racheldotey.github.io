@@ -69,24 +69,26 @@ main {
 
 /* Site Footer */
 .site-footer {
-    max-width: 64rem;
-    font-size: .8rem;
-
-    line-height: 1.3;
     background: #007155;
-    color: #fff;
-    padding: .6125em 0 .5em;
     margin: 1em auto 0;
-    text-align: center;
 
-
-    &:link, &:visited {
-        border: 0;
+    .content {
+        max-width: 64rem;
+        padding: .6125em 0 .5em;
         color: #fff;
-    }
+        font-size: .8rem;
+        line-height: 1.3;
+        text-align: center;
+       
 
-    &:hover, &:focus {
-        color: #fff;
-        border-bottom: 1px dashed #fff;
+        &:link, &:visited {
+            border: 0;
+            color: #fff;
+        }
+
+        &:hover, &:focus {
+            color: #fff;
+            border-bottom: 1px dashed #fff;
+        } 
     }
 }
