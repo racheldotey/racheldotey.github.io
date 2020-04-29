@@ -34,16 +34,19 @@ header {
         }
     }
 
-    .nav-list .list .item .link {
-        white-space: nowrap;
-        
-        &:link, &:visited {
-            color: #fff;
-        }
+    .nav-list .list .item {
+        border-color: rgba(255,255,255,0.2);
+        .link {
+            white-space: nowrap;
+            
+            &:link, &:visited {
+                color: #fff;
+            }
 
-        &:hover, &:focus {
-            color: #B2D23E;
-            text-decoration: none;
+            &:hover, &:focus {
+                color: #B2D23E;
+                text-decoration: none;
+            }
         }
     } 
 }
@@ -89,6 +92,7 @@ main {
         a:hover, a:focus {
             color: #fff;
             border-bottom: 1px dashed #fff;
+            text-decoration: none;
         } 
     }
 }
