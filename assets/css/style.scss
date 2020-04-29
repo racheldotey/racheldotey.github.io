@@ -11,18 +11,7 @@ body {
     color: #444;
 }
 
-/* Links */
-a:link, a:visited {
-    color: #444;
-    text-decoration: none;
-    border-bottom: 1px dashed #444;
-}
-
-a:hover, a:focus {
-    border-bottom: 1px dashed #f47d20;
-    color: #f47d20;
-}
-
+/* Nice link transition effect - UVM Standard */
 a:hover, a:active {
     -webkit-transition: all .15s ease-in-out;
     -moz-transition: all .15s ease-in-out;
@@ -30,17 +19,53 @@ a:hover, a:active {
     transition: all .15s ease-in-out;
 }
 
-/* Header */
-.logo-link {
-    white-space: nowrap;
+/* Site Header */
+header {
+    .logo-link {
+        white-space: nowrap;
+        
+        &:link, &:visited {
+            color: #B2D23E;
+        }
+
+        &:hover, &:focus {
+            color: #f47d20;
+        }
+    }
+
+    .nav-list .link {
+        white-space: nowrap;
+        
+        &:link, &:visited {
+            color: #fff;
+        }
+
+        &:hover, &:focus {
+            color: #B2D23E;
+        }
+    } 
 }
 
-/* Main content */
+/* Page content */
 .page-header {     
   margin-top: 4.5rem;
 }
 
-/* Footer */
+main {
+    /* Links */
+    a:link, a:visited {
+        color: #444;
+        text-decoration: none;
+        border-bottom: 1px dashed #444;
+    }
+
+    a:hover, a:focus {
+        border-bottom: 1px dashed #f47d20;
+        color: #f47d20;
+    }
+}
+
+/* Site Footer */
 .site-footer {
     max-width: 64rem;
     padding: 2rem 6rem;
