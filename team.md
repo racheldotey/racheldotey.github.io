@@ -7,19 +7,19 @@
 <br><br><br>
 
 
-<img src="https://cdorgs.github.io/img/dylan.jpg" width="25%">
+<img src="https://cdorgs.github.io/img/blank_profile.jpg" width="25%">
 
 **Dylan Shah** is a soft robot
 <br><br><br>
 
 
-<img src="https://cdorgs.github.io/img/amir.jpg" width="25%">
+<img src="https://cdorgs.github.io/img/blank_profile.jpg" width="25%">
 
 **Amir Nasab** is a postdoc
 <br><br><br>
 
 
-<img src="https://cdorgs.github.io/img/steph.jpg" width="25%">
+<img src="https://cdorgs.github.io/img/blank_profile.jpg" width="25%">
 
 **Steph Walker** is a postdoc
 <br><br><br>
@@ -36,7 +36,7 @@
 **Josh Bongard** is the Veinott Professor of Computer Science at the University of Vermont and the director of the [Morphology, Evolution & Cognition Laboratory](https://www.meclab.org/). His work involves computational approaches to the automated design and manufacture of soft-, evolved-, and crowdsourced robots, as well as living systems. A PECASE, TR35, and Microsoft New Faculty Fellow award recipient, he has received funding from NSF, NASA, DARPA, the U.S. Army Research Office and the Sloan Foundation. He has authored 34 and 76 peer-reviewed journal and conference publications respectively, and is the author of the book How The Body Shapes the Way We Think. He runs an evolutionary robotics MOOC through [reddit.com](https://www.reddit.com/r/ludobots/wiki/index#welcome) and a robotics outreach program, Twitch Plays Robotics.
 
 
-<img src="https://cdorgs.github.io/img/rebecca.jpg" width="25%">
+<img src="https://cdorgs.github.io/img/blank_profile.jpg" width="25%">
 
 **Rebecca Kramer-Bottiglio** is the boss.
 <br><br><br>
