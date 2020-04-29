@@ -1,8 +1,8 @@
 ---
 ---
 
-$header-bg-color: #66AC47  !default;
-$header-bg-color-secondary: #007155  !default;
+$header-bg-color: #007155  !default;
+$header-bg-color-secondary: #01533F  !default;
 
 @import "{{ site.theme }}";
 
@@ -76,6 +76,17 @@ main {
     background: #007155;
     color: #fff;
     padding: .6125em 0 .5em;
-    margin-top: 1em auto 0;
+    margin: 1em auto 0;
     text-align: center;
+
+
+    &:link, &:visited {
+        border: 0;
+        color: #fff;
+    }
+
+    &:hover, &:focus {
+        color: #fff;
+        border-bottom: 1px dashed #fff;
+    }
 }
