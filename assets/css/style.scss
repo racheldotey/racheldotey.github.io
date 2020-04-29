@@ -1,11 +1,11 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 :root {
     --header-bg-color: #159957;
     --header-bg-color-secondary: #28500;
 }
 
+$header-heading-color: lime !default;
 
+@import "{{ site.theme }}";
