@@ -37,7 +37,6 @@ header.nav-wrapper {
         }
 
         .nav-list .list .item {
-            border-color: rgba(255,255,255,0.2);
             .link {
                 white-space: nowrap;
                 
@@ -54,9 +53,9 @@ header.nav-wrapper {
         } 
     }
 }
-@media (min-width: 800px) {
+@media (max-width: 799px) {
     header .nav-list > .list > .item {
-        border-color: transparent;
+        border-color: rgba(255,255,255,0.2);
     }
 }
 
