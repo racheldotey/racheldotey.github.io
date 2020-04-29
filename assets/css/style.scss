@@ -1,8 +1,8 @@
 ---
 ---
 
-$header-bg-color: #159957 !default;
-$header-bg-color-secondary: #285000 !default;
+$header-bg-color: #66AC47  !default;
+$header-bg-color-secondary: #007155  !default;
 
 @import "{{ site.theme }}";
 
@@ -30,6 +30,7 @@ header {
 
         &:hover, &:focus {
             color: #f47d20;
+            text-decoration: none;
         }
     }
 
@@ -42,6 +43,7 @@ header {
 
         &:hover, &:focus {
             color: #B2D23E;
+            text-decoration: none;
         }
     } 
 }
@@ -68,8 +70,12 @@ main {
 /* Site Footer */
 .site-footer {
     max-width: 64rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
     font-size: .8rem;
+
+    line-height: 1.3;
+    background: #007155;
+    color: #fff;
+    padding: .6125em 0 .5em;
+    margin-top: 1em auto 0;
     text-align: center;
 }
